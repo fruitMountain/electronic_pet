@@ -1,4 +1,7 @@
-#include <second.h>
+#include <iostream>
+#include <string>
+#include "second.h"
+using namespace std;
 
 pet::pet(){
   hunger = 50;
