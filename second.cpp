@@ -6,8 +6,10 @@ using namespace std;
 pet::pet(){
   hunger = 50;
   happy = 50;
-  cout << "Pet's name? (one word) ";
-  cin >> name;
+  cout << "What's your pet's name? \n";
+  cin.ignore();
+  getline(cin, name);
+  cout << "Thanks, " << name << " is excited to meet you!";
 }
 
 void pet::play(){
