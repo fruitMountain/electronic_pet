@@ -6,14 +6,14 @@ using namespace std;
 int main(){
   int choice;
   int health_check;
-  int save;
-  cout << "Would you like to load your last save? (y-1/n-0)";
+  char save;
+  cout << "Would you like to load your last save? (y/n)";
   cin >> save;
-  if(save == 1){
+  if(save == 'y'){
     cout << "loading save... \n";
   }
   else{
-    cout << "Ok, well lets get you a new pet then.\n";
+    cout << "\nOk, well lets get you a new pet then.\n\n";
     pet pet1;
   do{
     pet1.print();

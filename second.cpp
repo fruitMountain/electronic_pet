@@ -9,7 +9,7 @@ pet::pet(){
   cout << "What's your pet's name? \n";
   cin.ignore();
   getline(cin, name);
-  cout << "Thanks, " << name << " is excited to meet you!";
+  cout << "Thanks! " << name << " is excited to meet you!\n";
 }
 
 void pet::play(){
